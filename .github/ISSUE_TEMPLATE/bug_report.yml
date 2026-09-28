@@ -16,13 +16,12 @@ body:
       placeholder: "7.2.0"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: edition
     attributes:
       label: Edition
-      options:
-        - Free
-        - Full
+      description: Free or Full. The version line at the bottom of the tab says "(Free)" on the free edition.
+      placeholder: "Full"
     validations:
       required: true
   - type: input
@@ -33,14 +32,11 @@ body:
       placeholder: "5.2.1"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: os
     attributes:
       label: Operating system
-      options:
-        - Windows
-        - macOS
-        - Linux
+      placeholder: "Windows / macOS / Linux"
     validations:
       required: true
   - type: dropdown
