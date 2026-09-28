@@ -1,7 +1,7 @@
 # Puzzle Cube Pro 2 (v7.2.0)
 
 > **This repository holds the documentation and the bug tracker for Puzzle Cube Pro 2.**
-> The add-on itself is available on [Gumroad](https://merlin3d.gumroad.com/l/PuzzleCubePro).
+> The add-on itself is available on [Gumroad](https://merlin3d.gumroad.com/l/PuzzleCubePro). Full user manual: [Puzzle Cube Pro User Manual](https://merlinperry.notion.site/Puzzle-Cube-Pro-User-Manual-for-Blender-5-0-17e7d725228f80c6a2a1c7bd7b81f68a).
 > Found a problem? Use **Report a Bug** at the bottom of the Puzzle Cube Pro tab in Blender,
 > or [open a bug report here](https://github.com/merlinperry97/puzzle-cube-pro/issues/new?template=bug_report.yml).
 
@@ -13,6 +13,8 @@ notation-driven turns.
 By Merlin Perry, www.merlinperry.com, mp@merlinperry.com
 
 Requires Blender 5.1 or newer.
+
+Online user manual: https://merlinperry.notion.site/Puzzle-Cube-Pro-User-Manual-for-Blender-5-0-17e7d725228f80c6a2a1c7bd7b81f68a
 
 
 ## Editions
