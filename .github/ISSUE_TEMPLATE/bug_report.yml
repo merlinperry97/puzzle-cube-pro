@@ -1,0 +1,90 @@
+name: Bug report
+description: Something in Puzzle Cube Pro isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. If you opened this form from the **Report a Bug** button in Blender, the version fields are already filled in.
+        Please check the [existing issues](https://github.com/merlinperry97/puzzle-cube-pro/issues) first in case it's already known.
+  - type: input
+    id: addon_version
+    attributes:
+      label: Add-on version
+      description: Shown at the bottom of the Puzzle Cube Pro tab (Utilities panel).
+      placeholder: "7.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - Free
+        - Full
+    validations:
+      required: true
+  - type: input
+    id: blender_version
+    attributes:
+      label: Blender version
+      description: Help > About Blender.
+      placeholder: "5.2.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: dropdown
+    id: puzzle
+    attributes:
+      label: Which puzzle?
+      options:
+        - Not puzzle-specific
+        - 3x3 Classic
+        - 3x3 variant (Curved, Ghost, Brick, Mirror, Mole Cube, Pumpkin, Sphere, Suzanne)
+        - 2x2 (Classic, Ghost, Twist)
+        - 4x4 / 5x5 / 10x10
+        - Pyraminx
+        - Megaminx
+        - Skewb (Classic, Ultimate, X-Ultimate)
+        - Speed Stack Timer
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest set of steps that makes it happen. Include the move sequence if it's about a run or a solve.
+      placeholder: |
+        1. Add the 3x3 Classic from the Rigs panel
+        2. Type R U R' U' and press Run
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Error messages
+      description: Anything red in Blender's status bar, or from Window > Toggle System Console (Windows). Paste the text here.
+      render: shell
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots or a .blend file
+      description: Drag images or a zipped .blend straight into this box. A small file that shows the problem helps the most.
