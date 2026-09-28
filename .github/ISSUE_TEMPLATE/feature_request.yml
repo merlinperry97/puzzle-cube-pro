@@ -1,0 +1,17 @@
+name: Feature request
+description: An idea for a new puzzle, control or workflow.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature and the shot or workflow it would help with.
+    validations:
+      required: true
+  - type: input
+    id: addon_version
+    attributes:
+      label: Add-on version (optional)
+      placeholder: "7.2.0"
